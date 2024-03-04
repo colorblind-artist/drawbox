@@ -1,20 +1,8 @@
-import { Box } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 
 interface IProps {
   src: string;
 }
-
-const modalStyle = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
 
 const img = (() => {
   const img = new Image();

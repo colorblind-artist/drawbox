@@ -5,17 +5,6 @@ import LinkIcon from "@mui/icons-material/Link";
 import { LessonExercisePageID } from "./navigation";
 import { ImageModal } from "./ImageModal";
 
-const modalStyle = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
-};
-
 interface IProps {
   lesson: ILesson;
   exercise: IExercise;
